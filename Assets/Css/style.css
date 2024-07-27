@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    border:0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+   
+}
+
+.card{
+    background:linear-gradient(rgba(123,0,0,0.7),rgba(200, 125, 125, 0.9));
+    border-radius: 20px;
+    box-shadow: 10px 12px rgb(197, 78, 101);
+} 
+
+#field #but{
+    margin-top: 5px;
+   background-color:rgb(197, 78, 101);
+}
+#butt{
+    display: flex;
+    justify-content: space-between;
+    color: lightcoral;
+}
+.postCard h3{
+    left: 0;
+    right: 0;
+    width: 100;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    
+}
+
+
+
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
